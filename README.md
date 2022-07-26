@@ -19,4 +19,16 @@ Then, build it.
 
 $ roslaunch camera_simulator realsense2_gazebo.launch
 
+More Info.
+
+Replace <pointCloud>false</pointCloud> with <pointCloud>true</pointCloud> to get point cloud data.
+
 <img src="/camera_simulator/reference/XML.png" width="700" height="400" />
+
+Implementation in Gazebo version 11
+
+<img src="/camera_simulator/reference/Gazebo_Realsense_Camera.png" width="700" height="400" />
+
+RVIZ point cloud data
+
+<img src="/camera_simulator/reference/pointcloud_data_in_RVIZ.png" width="700" height="400" />
