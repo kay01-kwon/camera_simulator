@@ -21,7 +21,7 @@ $ roslaunch camera_simulator realsense2_gazebo.launch
 
 More Info.
 
-Replace <pointCloud>false</pointCloud> with <pointCloud>true</pointCloud> to get point cloud data. (Line 23)
+Replace <pointCloud>false</pointCloud> with <pointCloud>true</pointCloud> to get point cloud data. (Line 21)
 
 <img src="/camera_simulator/reference/XML.png" width="500" height="400" />
 
