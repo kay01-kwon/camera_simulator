@@ -21,6 +21,10 @@ $ roslaunch camera_simulator realsense2_gazebo.launch
 
 More Info.
 
+Package Contents: 3 urdf files and 1 launch file
+
+.urdf.xacro \torightarrow
+
 <img src="/camera_simulator/reference/contents.png" width="500" height="400" />
 
 Replace <pointCloud>false</pointCloud> with <pointCloud>true</pointCloud> to get point cloud data. (Line 21)
