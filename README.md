@@ -19,3 +19,4 @@ Then, build it.
 
 $ roslaunch camera_simulator realsense2_gazebo.launch
 
+<img src="/camera_simulator/reference/XML.png" width="700" height="400" />
