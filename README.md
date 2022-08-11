@@ -9,6 +9,33 @@ Prerequisite
 
 $ sudo apt-get install ros-noetic-realsense2-description
 
+Before executing catkin_make, check the version of protoc.
+
+How to figure out the version.
+
+$ protoc --version
+libprotoc 3.6.1
+
+If you do not have protoc version 3.6.1, remove the protoc and then install protoc 3.6.1.
+
+## Installation of the protoc 3.6.1 IF YOU DO NOT HAVE PROTOBUF 3.6.1
+
+$ mkdir ~/repos && cd ~/repos
+
+~/repos $ wget https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-all-3.6.1.tar.gz
+
+~/repos $ tar -xvzf protobuf-all-3.6.1.tar.gz && cd protobuf-3.6.1
+
+~/repos/protobuf-3.6.1/ $ ./configure
+
+~/repos/protobuf-3.6.1/ $ make
+
+~/repos/protobuf-3.6.1/ $ make check
+
+~/repos/protobuf-3.6.1/ $ sudo make install
+
+~/repos/protobuf-3.6.1/ $ sudo ldconfig
+
 2. Go to the site https://github.com/pal-robotics/realsense_gazebo_plugin
 
 and clone this package into the ~/catkin_ws/src directory.
