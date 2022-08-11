@@ -36,7 +36,9 @@ $ mkdir ~/repos && cd ~/repos
 
 ~/repos/protobuf-3.6.1/ $ sudo ldconfig
 
-# 2. Go to the site https://github.com/pal-robotics/realsense_gazebo_plugin
+# 2. realsense_gazebo_plugin 
+
+Go to the site https://github.com/pal-robotics/realsense_gazebo_plugin
 
 and clone this package into the ~/catkin_ws/src directory.
 
