@@ -5,7 +5,7 @@ Environment: Ubuntu 20.04 Noetic
 
 Prerequisite
 
-1. Install realsense2_description pkg
+# 1. Install realsense2_description pkg
 
 $ sudo apt-get install ros-noetic-realsense2-description
 
@@ -16,9 +16,9 @@ How to figure out the version.
 $ protoc --version
 libprotoc 3.6.1
 
-If you do not have protoc version 3.6.1, remove the protoc and then install protoc 3.6.1.
+# Installation of the protoc 3.6.1 IF YOU DO NOT HAVE PROTOBUF 3.6.1
 
-## Installation of the protoc 3.6.1 IF YOU DO NOT HAVE PROTOBUF 3.6.1
+If you do not have protoc version 3.6.1, remove the protoc and then install protoc 3.6.1.
 
 $ mkdir ~/repos && cd ~/repos
 
@@ -36,13 +36,13 @@ $ mkdir ~/repos && cd ~/repos
 
 ~/repos/protobuf-3.6.1/ $ sudo ldconfig
 
-2. Go to the site https://github.com/pal-robotics/realsense_gazebo_plugin
+# 2. Go to the site https://github.com/pal-robotics/realsense_gazebo_plugin
 
 and clone this package into the ~/catkin_ws/src directory.
 
 Then, build it.
 
-3. Get this package and then launch it.
+# 3. Get this package and then launch it.
 
 $ roslaunch camera_simulator realsense2_gazebo.launch
 
